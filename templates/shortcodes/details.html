@@ -1,0 +1,9 @@
+<div>
+    <details {% if class %}class="{{ class }}"{% endif %}>
+        <summary {% if summary_class %}class="{{ summary_class }}"{% endif %}>
+            {{ summary | safe | markdown(inline=true) | safe }}
+        </summary>
+
+        {{ body | safe | markdown(inline=true) | safe }}
+    </details>
+</div>

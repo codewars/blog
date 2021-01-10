@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+    {{ page.title }} &middot; {{ super() }}
+{% endblock %}
+
+{% block content %}
+    {% block post %}
+        {{ macros::post_header(page=page) }}
+
+        <div class="prose dark:prose-light pt-8">
+            {{ page.content | safe }}
+        </div>
+    {% endblock %}
+{% endblock %}

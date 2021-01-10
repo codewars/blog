@@ -1,0 +1,9 @@
+[build]
+publish = "public"
+command = "npm run build"
+
+[build.environment]
+ZOLA_VERSION = "0.12.2"
+
+[context.deploy-preview]
+command = "npm run build:netlify-preview"

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+/* show # on hover */
+.prose {
+  & h1,
+  & h2,
+  & h3,
+  & h4 {
+    &:hover {
+      & a::before {
+        @apply opacity-100;
+      }
+    }
+
+    & a {
+      &::before {
+        content: "#";
+        margin-left: -1em;
+        padding-right: 1em;
+
+        @apply text-brand absolute opacity-0 float-left;
+      }
+    }
+  }
+}

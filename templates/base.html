@@ -1,0 +1,46 @@
+{% import "macros.html" as macros %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>{% block title %}{{ config.title }}{% endblock %}</title>
+
+    <link rel="stylesheet" href="/styles.css" />
+
+    {% if config.generate_feed %}
+    <link rel="alternate" type="application/rss+xml" title="{{ config.title }} Feed" href="{{ get_url(path='rss.xml') }}">
+    {% endif %}
+
+    <script>
+    (() => {
+      const setDark = (dark) => {
+        document.documentElement.classList.toggle("dark", dark);
+        localStorage.setItem("dark", dark + "");
+      };
+      const stored = localStorage.getItem("dark");
+      if (stored !== null) setDark(stored === "true");
+      else if (window.matchMedia) setDark(window.matchMedia("(prefers-color-scheme: dark)").matches);
+    })();
+    </script>
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body class="bg-tgray-50 dark:bg-tgray-900">
+    {{ macros::header() }}
+
+    <div class="mx-auto px-6 w-full sm:max-w-screen-sm md:max-w-screen-md">
+        <div>
+            {% block content %}{% endblock %}
+        </div>
+
+        {% if paginator %}
+        {{ macros::pagination(paginator=paginator) }}
+        {% endif %}
+    </div>
+
+    {{ macros::footer() }}
+</body>
+</html>

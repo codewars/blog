@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ section.title }} &middot; {{ super() }}
+{% endblock %}
+
+{% block content %}
+    {% if paginator %}
+    {{ macros::list_pages(pages=paginator.pages) }}
+    {% else %}
+    {{ macros::list_pages(pages=section.pages) }}
+    {% endif %}
+{% endblock %}

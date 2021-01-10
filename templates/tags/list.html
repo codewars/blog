@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+Tags &middot; {{ super() }}
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>Tags</h2>
+
+    <div class="mt-2">
+    {% for term in terms %}
+        {{ macros::tag(url=term.permalink, name=term.name) }}
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}
