@@ -22,6 +22,10 @@
       const stored = localStorage.getItem("dark");
       if (stored !== null) setDark(stored === "true");
       else if (window.matchMedia) setDark(window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelector('.theme-toggle').addEventListener('click', () => { setDark(!document.documentElement.classList.contains('dark')); });
+      });
     })();
     </script>
 
