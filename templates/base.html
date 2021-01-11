@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
 
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="{{ get_url(path='/styles.css', cachebust=true) | safe }}" />
 
     {% if config.generate_feed %}
     <link rel="alternate" type="application/rss+xml" title="{{ config.title }} Feed" href="{{ get_url(path='rss.xml') }}">
