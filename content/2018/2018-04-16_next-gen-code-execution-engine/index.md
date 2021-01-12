@@ -5,13 +5,15 @@ title = "Next Gen Code Execution Engine is Live!"
 tags = ["changelog", "runner", "new-language"]
 +++
 
+{{ figure(src="top.png") }}
+
 We are pleased to announce that we have recently replaced our code execution engine with our 3rd generation code runner engine. The new engine has been completely redesigned from the ground up to perform better, have improved stability, and be more flexible in order to handle the constant changing set of languages and dependencies that are required to keep you on top of your game.
 
 Along with this new release, we are also releasing a number of updates that come with the new engine.
 
 ### New Languages
 
-![Image for post](https://miro.medium.com/max/1288/1*VnttlUQTId4V8aeo4RcLJA.png)
+{{ themed_figure(src="new-languages.png", alt="PowerShell, Fortran, Julia, and NASM are now supported") }}
 
 We now support [**PowerShell**](https://en.wikipedia.org/wiki/PowerShell), [**Fortran**](https://en.wikipedia.org/wiki/Fortran), [**Julia**](https://en.wikipedia.org/wiki/Julia_(programming_language)) & [**NASM**](https://en.wikipedia.org/wiki/Netwide_Assembler)**!** These languages are in beta and as of press time don’t have any/many kata available yet. If you have experience working with any of these, the community could use your help translating existing content — which happens to be a pretty good way to earn some honor in the process.
 
@@ -62,8 +64,6 @@ Read more about the recent additions on [GitHub](https://github.com/Codewars/cod
 
 ## One more thing… Duplicate Kata Warning
 
-![Image for post](https://miro.medium.com/max/1872/1*KU1rPvGDRUuBTz4YzPZYhQ.png)
-
-Example warning based off of kata name
+{{ figure(src="duplicate-warning.png", alt="Example warning based off of kata name") }}
 
 Unrelated to the new code runner, we have another update to announce. Within the kata editor we now present a list of possible duplicate kata, based off of the name of the kata being edited. The kata shown may not actually be duplicates, but if any of them seem similar, kata authors (sensei) should check them out first to make sure they are creating something unique.

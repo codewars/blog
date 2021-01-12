@@ -5,6 +5,7 @@ title = "Introducing Codewars Red"
 tags = ["product"]
 +++
 
+{{ figure(src="red-banner.png") }}
 
 For years Codewars has been helping developers all around the world improve their craft. Regardless of your level of coding experience, Codewars has something to help you train on. As the site becomes more popular, we want to not only continue to serve the community but also continue to provide new and exciting features. **As part of this mission, we are introducing a new premium subscription plan —** [**Codewars Red**](https://www.codewars.com/subscription)**.**
 
@@ -14,17 +15,11 @@ While Codewars will always provide a free experience for everyone, Codewars Red 
 
 The Codewars user profile has been revamped with a new stats tab. Normal users will see their basic stats such as contributions and overall progress. Codewars Red members will have an enhanced stats page that takes things further. In addition to your normal stats, you will be able to see information on your training streaks, total up votes and detailed information about each language you have trained on.
 
-![Image for post](https://miro.medium.com/max/1802/1*2Won_wealAry6mefyOfquw.png)
+{{ figure(src="streaks.png", alt="See your streaks and challenge yourself to train harder") }}
 
-See your streaks and challenge yourself to train harder
+{{ figure(src="language-stats.png", alt="View detailed information about each language you have trained on") }}
 
-![Image for post](https://miro.medium.com/max/1928/1*C1huz_h6aH_bAB9Cr5jUjg.png)
-
-View detailed information about each language you have trained on
-
-![Image for post](https://miro.medium.com/max/604/1*G6GFitnHKU6EKUWocRhgkA.png)
-
-See your total solution up votes
+{{ figure(src="solution-upvotes.png", alt="See your total solution up votes") }}
 
 Enhanced profiles are visible for anyone to see and are a great way for you to show off your skills to employers and colleagues!
 
@@ -32,9 +27,7 @@ Enhanced profiles are visible for anyone to see and are a great way for you to s
 
 Ever wished you could see how you solve problems compared to someone else? Now you can with our new head-to-head comparison feature. Codewars Red subscribers will be able to compare themselves to any other codewarrior. Simply go to their profile and click “Head-to-Head Compare”. After the system crunches your solutions for a brief moment you will be shown both of your solutions, side-by-side, for any kata that you have completed in the same language. This is an incredible way to pick up tricks from other developers.
 
-![Image for post](https://miro.medium.com/max/2220/1*A5PjDeAncJlozDlepqYO9A.png)
-
-Compare yourself to any other codewarrior.
+{{ figure(src="head-to-head.png", alt="Compare yourself to any other codewarrior.") }}
 
 ## Improved Code Execution
 

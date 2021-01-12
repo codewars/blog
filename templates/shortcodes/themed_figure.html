@@ -1,0 +1,8 @@
+<figure class="w-full">
+  {% set parts = src | split(pat='.') %}
+  <img class="block dark:hidden mx-auto" src="{{ [parts | nth(n=0), '-light.', parts | nth(n=1)] | join(sep='') }}"{% if alt %} alt="{{ alt }}"{% endif %}>
+  <img class="hidden dark:block mx-auto" src="{{ [parts | nth(n=0), '-dark.', parts | nth(n=1)] | join(sep='') }}"{% if alt %} alt="{{ alt }}"{% endif %}>
+  {% if alt %}
+  <figcaption class="text-center">{{ alt }}</figcaption>
+  {% endif %}
+</figure>

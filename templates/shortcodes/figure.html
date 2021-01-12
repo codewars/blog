@@ -1,0 +1,6 @@
+<figure class="w-full">
+  <img class="mx-auto" src="{{ src }}"{% if alt %} alt="{{ alt }}"{% endif %}>
+  {% if alt %}
+  <figcaption class="text-center">{{ alt }}</figcaption>
+  {% endif %}
+</figure>
