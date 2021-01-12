@@ -18,20 +18,16 @@ html {
   & h2,
   & h3,
   & h4 {
-    &:hover {
-      & a::before {
-        @apply opacity-100;
-      }
+    &:hover a::before {
+      @apply opacity-100;
     }
 
-    & a {
-      &::before {
-        content: "#";
-        margin-left: -1em;
-        padding-right: 1em;
+    & a::before {
+      content: "#";
+      margin-left: -1em;
+      padding-right: 1em;
 
-        @apply text-brand absolute opacity-0 float-left;
-      }
+      @apply text-brand absolute opacity-0 float-left;
     }
   }
 }
