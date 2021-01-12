@@ -6,11 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: colors.gray,
-        tgray: colors.trueGray,
-        wgray: colors.warmGray,
-        cgray: colors.coolGray,
-        bgray: colors.blueGray,
+        gray: colors.trueGray,
         brand: "#b1361e",
         note: colors.coolGray[600],
         "note-content": colors.coolGray[500],
@@ -26,6 +22,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            color: theme("colors.gray.700"),
             "blockquote p:first-of-type::before": {
               content: "none",
             },
@@ -65,59 +62,59 @@ module.exports = {
         light: {
           css: [
             {
-              color: theme("colors.tgray.300"),
+              color: theme("colors.gray.300"),
               '[class~="lead"]': {
-                color: theme("colors.tgray.300"),
+                color: theme("colors.gray.300"),
               },
               a: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               strong: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               "ol > li::before": {
-                color: theme("colors.tgray.400"),
+                color: theme("colors.gray.400"),
               },
               "ul > li::before": {
-                backgroundColor: theme("colors.tgray.600"),
+                backgroundColor: theme("colors.gray.600"),
               },
               hr: {
-                borderColor: theme("colors.tgray.700"),
+                borderColor: theme("colors.gray.700"),
               },
               blockquote: {
-                color: theme("colors.tgray.200"),
-                borderLeftColor: theme("colors.tgray.700"),
+                color: theme("colors.gray.300"),
+                borderLeftColor: theme("colors.gray.700"),
               },
               h1: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               h2: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               h3: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               h4: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               "figure figcaption": {
-                color: theme("colors.tgray.400"),
+                color: theme("colors.gray.400"),
               },
               code: {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               "a code": {
-                color: theme("colors.tgray.200"),
+                color: theme("colors.gray.300"),
               },
               pre: {
-                color: theme("colors.tgray.700"),
+                color: theme("colors.gray.700"),
               },
               thead: {
-                color: theme("colors.tgray.200"),
-                borderBottomColor: theme("colors.tgray.600"),
+                color: theme("colors.gray.300"),
+                borderBottomColor: theme("colors.gray.600"),
               },
               "tbody tr": {
-                borderBottomColor: theme("colors.tgray.700"),
+                borderBottomColor: theme("colors.gray.700"),
               },
             },
           ],
