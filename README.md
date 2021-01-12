@@ -47,6 +47,7 @@ Zola's [shortcodes] allow easily inject HTML in Markdown and reduce repetition. 
 - `airtable(id: string, color?: string = "gray")` [embeds Airtable base][airtable-embed] with `id` with optional `color` for `backgroundColor`.
 - `container(type: note|tip|info|warning|danger, title?: string)` wraps `body` in a styled container `<div>` with icon, similar to [gridsome-remark-container]. `title` defaults to `type`.
 - `details(summary: string)` wraps `body` in `<details>` with `<summary>`.
+- `figure(src: string, alt?: string, themed?: bool = false)` produces centered responsive image inside `<figure>` with `alt` in `<figcaption>` if provided. `src` is a co-located asset and relative to the page or section. If `themed` is true, `light`/`dark` image variants are used. `src` is a file name without `-light`/`-dark` suffix. For example, `figure(src='foo.png', themed=true)` requires `foo-light.png` and `foo-dark.png`.
 
 ## TODO
 

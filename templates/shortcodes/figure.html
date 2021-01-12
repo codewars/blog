@@ -1,6 +1,31 @@
+{% import "macros.html" as macros %}
+
 <figure class="w-full">
-  <img class="mx-auto" src="{{ src }}"{% if alt %} alt="{{ alt }}"{% endif %}>
-  {% if alt %}
-  <figcaption class="text-center">{{ alt }}</figcaption>
-  {% endif %}
+{% if themed %} {# use light/dark variant #}
+    {% set ext = src | split(pat='.') | last %}
+    {% set ext = '.' ~ ext %}
+    {% set base_src = src | trim_end_matches(pat=ext) %}
+    {% set light = '-light' ~ ext %}
+    {% set dark = '-dark' ~ ext %}
+    {% set light_src = base_src ~ light %}
+    {% set dark_src = base_src ~ dark %}
+
+    {% if page %}
+        {{ macros::img_srcset(src=light_src, context=page, class="mx-auto block dark:hidden", alt=alt | default(value="")) }}
+        {{ macros::img_srcset(src=dark_src, context=page, class="mx-auto hidden dark:block", alt=alt | default(value="")) }}
+    {% else %}
+        {{ macros::img_srcset(src=light_src, context=section, class="mx-auto block dark:hidden", alt=alt | default(value="")) }}
+        {{ macros::img_srcset(src=dark_src, context=section, class="mx-auto hidden dark:block", alt=alt | default(value="")) }}
+    {% endif %}
+{% else %}
+    {% if page %}
+        {{ macros::img_srcset(src=src, context=page, class="mx-auto", alt=alt | default(value="")) }}
+    {% else %}
+        {{ macros::img_srcset(src=src, context=section, class="mx-auto", alt=alt | default(value="")) }}
+    {% endif %}
+{% endif %}
+
+{% if alt %}
+    <figcaption class="text-center">{{ alt }}</figcaption>
+{% endif %}
 </figure>
