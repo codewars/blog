@@ -108,3 +108,29 @@
     <svg class="w-6 h-6 hidden dark:block text-gray-500 dark:text-tgray-600 dark:hover:text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
 </button>
 {% endmacro %}
+
+{% macro img_srcset(context, src, alt, class) %}
+  {# `src` is relative to the page/section, find relative path from content/ for image functions #}
+  {% set_global path = "" %}
+  {% for asset in context.assets %}
+      {% if asset | split(pat='/') | last == src %}
+          {% set_global path = asset %}
+          {% break %}
+      {% endif %}
+  {% endfor %}
+  {# resize wide images for smaller screens #}
+  {% set_global srcset = [] %}
+  {% if path != "" %}
+      {% set meta = get_image_metadata(path=path) %}
+      {% for w in [480, 640, 768, 1024, 1280, 1536] %}
+          {% if w < meta.width %}
+              {% set resized = resize_image(path=path, op='fit_width', width=w) %}
+              {% set size = w | as_str %}
+              {% set_global srcset = srcset | concat(with=resized ~ ' ' ~ size ~ 'w') %}
+          {% endif %}
+      {% endfor %}
+  {% endif %}
+  {% set_global srcset = srcset | join(sep=', ') | json_encode() %}
+
+  <img src="{{ src }}" srcset={{ srcset | safe }}{% if class %} class="{{ class }}"{% endif %}{% if alt %} alt="{{ alt }}"{% endif %}>
+{% endmacro %}

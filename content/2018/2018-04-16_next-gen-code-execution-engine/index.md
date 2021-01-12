@@ -13,7 +13,7 @@ Along with this new release, we are also releasing a number of updates that come
 
 ### New Languages
 
-{{ themed_figure(src="new-languages.png", alt="PowerShell, Fortran, Julia, and NASM are now supported") }}
+{{ figure(src="new-languages.png", alt="PowerShell, Fortran, Julia, and NASM are now supported", themed=true) }}
 
 We now support [**PowerShell**](https://en.wikipedia.org/wiki/PowerShell), [**Fortran**](https://en.wikipedia.org/wiki/Fortran), [**Julia**](https://en.wikipedia.org/wiki/Julia_(programming_language)) & [**NASM**](https://en.wikipedia.org/wiki/Netwide_Assembler)**!** These languages are in beta and as of press time don’t have any/many kata available yet. If you have experience working with any of these, the community could use your help translating existing content — which happens to be a pretty good way to earn some honor in the process.
 
