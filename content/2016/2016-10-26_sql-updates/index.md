@@ -11,17 +11,13 @@ Codewars has just released a new set of testing helpers to make writing and test
 
 There is a new `compare_with` helper which takes in an example result set to compare the code warrior’s query against. This has a number of benefits, including presenting the code warrior with a 2nd table that shows the expected results output.
 
-![Image for post](https://miro.medium.com/max/1228/1*fvJ660zo6dKcUUDSaIN5Bw.png)
-
-No need trying to guess what the results should look like, now you can see the expected output!
+{{ figure(src="expected-results.png", alt="No need trying to guess what the results should look like, now you can see the expected output!") }}
 
 ## Charts
 
 You may have also noticed in the above screenshot that there are 2 chart tabs. Another feature of the `compare_with` helper is that you can define charts to help visualize the data. Currently we support a `timeseries` chart type, and will be adding more later.
 
-![Image for post](https://miro.medium.com/max/1232/1*mwVEdO_VDFtEONXp8SyI9g.png)
-
-You can compare your results with the expected using chart visualizations
+{{ figure(src="charts.png", alt="You can compare your results with the expected using chart visualizations") }}
 
 ## Using the compare_with helper
 
@@ -37,9 +33,7 @@ end
 
 Not only will this print out both an ‘actual” and “expected” set of results, but this will also auto generate RSpec test specs for you based off of the data returned by the expected results. Here is an example of some specs that are auto-generated:
 
-![Image for post](https://miro.medium.com/max/1120/1*qi2dPmfy33UWdskKoIyh4w.png)
-
-Auto-generated specs. The very last spec shown here will compare the entire actual result set to the expected result set.
+{{ figure(src="test-output.png", alt="Auto-generated specs. The very last spec shown here will compare the entire actual result set to the expected result set.") }}
 
 While these generated specs are great, there are some other ways of extending the generated specs.
 

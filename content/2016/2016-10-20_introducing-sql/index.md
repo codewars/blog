@@ -5,7 +5,7 @@ title = "Introducing SQL Support (Beta)"
 tags = ["changelog", "runner", "new-language"]
 +++
 
-We are happy to announce that SQL is now a supported language on the [Codewars](http://www.codewars.com?utm_campaign=introducing_sql&utm_medium=blog) platform. We currently support two different SQL environments: SQLite3 and Postgres, with MariaDB support coming later.
+We are happy to announce that SQL is now a supported language on the [Codewars](https://www.codewars.com?utm_campaign=introducing_sql&utm_medium=blog) platform. We currently support two different SQL environments: SQLite3 and Postgres, with MariaDB support coming later.
 
 Unit testing isn’t usually done on pure SQL queries and there were not any SQL testing frameworks for us to use. Because of this, SQL required us to do something we have never done before — use one language to test another. Our solution: use Ruby, RSpec and the Sequel ORM as the testing platform. It works by having the solution be pure SQL, but that code gets executed in a Ruby/Rspec environment using [Sequel](https://github.com/jeremyevans/sequel) to work with the database. This allows a lot of flexibility. You can use Ruby to populate the database with any data that you want and set up various testing scenarios. You can run the query multiple times on different versions of a dataset.
 
@@ -34,7 +34,7 @@ end
 results = run_sql
 ```
 
-![Image for post](https://miro.medium.com/max/1264/1*IdOXyN0lAjZtLtd5kdkjqw.png)
+{{ figure(src="sql-results.png") }}
 
 ## **What if I don’t want to generate my own data?**
 
