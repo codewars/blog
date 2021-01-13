@@ -6,7 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production postcss styles.css -o static/styles.css --no-map && zola build",
     "build:netlify-preview": "postcss styles.css -o static/styles.css --no-map && zola build --base-url $DEPLOY_PRIME_URL",
-    "watch": "concurrently \"postcss styles.css -o static/styles.css --no-map --watch\" \"zola serve\""
+    "dev": "concurrently \"postcss styles.css -o static/styles.css --no-map --watch\" \"zola serve\""
   },
   "author": "",
   "dependencies": {

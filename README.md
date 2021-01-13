@@ -23,7 +23,7 @@ Then run `npm install`.
 
 ### Commands
 
-- `npm run watch` to start a local server that reloads automatically on file change. Works by running `zola serve` and `postcss --watch` concurrently. CSS changes rarely thanks to Tailwind and Zola is extremely fast, so each build finishes in milliseconds!
+- `npm run dev` to start a local server that reloads automatically on file change. Works by running `zola serve` and `postcss --watch` concurrently. CSS changes rarely thanks to Tailwind and Zola is extremely fast, so each build finishes in milliseconds!
 - `npm run build` to build the site.
 
 ### Directory Structure
