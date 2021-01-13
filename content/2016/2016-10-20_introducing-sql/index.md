@@ -1,5 +1,6 @@
 +++
 title = "Introducing SQL Support (Beta)"
+summary = "Codewars now supports SQL!"
 
 [taxonomies]
 tags = ["changelog", "runner", "new-language"]

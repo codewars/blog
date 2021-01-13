@@ -1,7 +1,8 @@
 +++
 title = "Sneak Peak: Kumite + Kata Translations"
 summary = """
-Beta test our new feature, Kumite - executable and forkable code snippets, by enabling it in your [account settings page](https://www.codewars.com/users/edit). Kumite has run support for 27 languages, and allows you to translate kata.
+Beta test our new feature, Kumite - executable and forkable code snippets, by enabling it in your account settings page.
+Kumite has run support for 27 languages, and allows you to translate kata.
 """
 
 [taxonomies]

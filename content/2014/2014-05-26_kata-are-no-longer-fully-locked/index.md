@@ -1,7 +1,7 @@
 +++
 title = "Kata are no longer fully locked once they have a large number of solutions."
 summary = """
-We have updated how kata become locked once it has been completed 500+ times. 
+We have updated how kata become locked once it has been completed 500+ times.
 """
 
 [taxonomies]
