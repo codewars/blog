@@ -1,6 +1,6 @@
 +++
 title = "Kata are no longer fully locked once they have a large number of solutions."
-summary = """
+description = """
 We have updated how kata become locked once it has been completed 500+ times.
 """
 

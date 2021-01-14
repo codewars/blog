@@ -1,6 +1,6 @@
 +++
 title = "Earn the... Kata Contributor Ability"
-summary = """
+description = """
 We have added the ability to have kata contributors.
 Users who achieve an honor of 1500 or more will be allowed to make edits/improvemtns to other user's kata during the beta period.
 """

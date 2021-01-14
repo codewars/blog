@@ -1,6 +1,6 @@
 +++
 title = "The Codewars Team is Growing"
-summary = """
+description = """
 Two prominent community members, Matt Wampler-Doty (xcthulhu) and Phil DeJarnett (OverZealous) have joined the Codewars core team.
 """
 
