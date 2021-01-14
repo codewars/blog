@@ -1,5 +1,6 @@
 +++
 title = "SQL Updates: It’s even easier now to create SQL kata"
+summary = "Codewars has just released a new set of testing helpers to make writing and testing SQL kata even easier."
 
 [taxonomies]
 tags = ["changelog", "runner", "language-update", "authoring"]

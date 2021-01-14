@@ -1,8 +1,6 @@
 +++
-title = "Codewars Runner now open-source! "
-summary = """
-The Codewars Runner CLI executes untrusted code, running kata on Codewars. We've now open-sourced it  on [our Github page](https://github.com/Codewars/codewars-runner-cli), allowing the community to contribute additional language support to Codewars.
-"""
+title = "Codewars Runner now open-source!"
+summary = "Open sourcing Codewars Runner CLI that powers running kata on Codewars."
 
 [taxonomies]
 tags = []

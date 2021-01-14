@@ -1,5 +1,6 @@
 +++
 title = "New Language and Updated Beta Process"
+summary = "Codewars now supports Solidity, Scala, Groovy, and Kotlin!"
 
 [taxonomies]
 tags = ["changelog", "runner", "new-language"]

@@ -1,7 +1,7 @@
 +++
 title = "Solutions Tag Voting"
 summary = """
-We just launched **tag voting on kata solutions** - now you can tag solutions for each kata as "best practices" or "clever".
+We just launched "tag voting" on kata solutions - now you can tag solutions for each kata as "best practices" or "clever".
 """
 
 [taxonomies]

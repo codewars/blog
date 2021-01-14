@@ -3,7 +3,7 @@ publish = "public"
 command = "npm run build"
 
 [build.environment]
-ZOLA_VERSION = "0.12.2"
+ZOLA_VERSION = "0.13.0"
 
 [context.deploy-preview]
 command = "npm run build:netlify-preview"

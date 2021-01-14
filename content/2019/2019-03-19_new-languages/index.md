@@ -1,5 +1,6 @@
 +++
 title = "New Language Announcements"
+summary = "Codewars now supports PureScript, Elm, Reason, Idris, and Agda!"
 
 [taxonomies]
 tags = ["changelog", "runner", "new-language"]
