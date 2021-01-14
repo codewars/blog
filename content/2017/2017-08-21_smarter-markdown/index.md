@@ -1,6 +1,6 @@
 +++
 title = "New Languages, Smarter Markdown, and Translation Approvals"
-summary = "Codewars now supports R, BF, Erlang, and Nim!"
+description = "Codewars now supports R, BF, Erlang, and Nim!"
 
 [taxonomies]
 tags = ["changelog", "runner", "new-language"]

@@ -1,6 +1,6 @@
 +++
 title = "Docker and Python 2.7 are now live!"
-summary = """
+description = """
 We have launched our new Docker system along with support for Python as our first expansion language.
 """
 

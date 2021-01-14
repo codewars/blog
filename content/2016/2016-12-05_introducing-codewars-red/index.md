@@ -1,6 +1,6 @@
 +++
 title = "Introducing Codewars Red"
-summary = "Announcing premium subscription plan, Codewars Red!"
+description = "Announcing premium subscription plan, Codewars Red!"
 
 [taxonomies]
 tags = ["product"]

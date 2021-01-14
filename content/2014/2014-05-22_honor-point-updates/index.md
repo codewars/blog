@@ -1,6 +1,6 @@
 +++
 title = "Honor Point Updates"
-summary = """
+description = """
 The system is being updated. Your honor may be adjusted over the course of the next few days.
 """
 

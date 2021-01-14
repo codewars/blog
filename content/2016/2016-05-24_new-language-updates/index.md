@@ -1,6 +1,6 @@
 +++
 title = "New Language Updates! "
-summary = "TypeScript and Elixir are now in beta! We've also released new language versions (Node 6 and Python 3)."
+description = "TypeScript and Elixir are now in beta! We've also released new language versions (Node 6 and Python 3)."
 
 [taxonomies]
 tags = ["changelog", "runner", "new-language"]

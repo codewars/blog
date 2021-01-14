@@ -1,6 +1,6 @@
 +++
 title = "Next Gen Code Execution Engine is Live!"
-summary = "We are pleased to announce that we have recently replaced our code execution engine with our 3rd generation code runner engine."
+description = "We are pleased to announce that we have recently replaced our code execution engine with our 3rd generation code runner engine."
 
 [taxonomies]
 tags = ["changelog", "runner", "new-language"]

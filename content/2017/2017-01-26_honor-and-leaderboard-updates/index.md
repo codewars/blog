@@ -1,6 +1,6 @@
 +++
 title = "Honor and Leaderboard Updates"
-summary = "Announcing updates to the honor point system."
+description = "Announcing updates to the honor point system."
 
 [taxonomies]
 tags = ["changelog", "gamification"]

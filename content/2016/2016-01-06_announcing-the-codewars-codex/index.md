@@ -1,6 +1,6 @@
 +++
 title = "Announcing the Codewars Codex!"
-summary = """
+description = """
 If you are interested in creating kata on Codewars, reading through this set of advice and rules will be a great way to get started.
 """
 
