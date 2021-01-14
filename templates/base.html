@@ -13,6 +13,33 @@
     <link rel="alternate" type="application/rss+xml" title="{{ config.title }} Feed" href="{{ get_url(path='rss.xml') }}">
     {% endif %}
 
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="{{ config.title }}"/>
+    <meta property="og:url" content="{{ config.base_url | safe }}"/>
+    <meta property="og:image" content="{{ get_url(path='/logo.png', cachebust=true) | safe }}"/>
+    <meta property="twitter:site" content="@codewars"/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:image" content="{{ get_url(path='/logo.png', cachebust=true) | safe }}"/>
+    {% block metadata %}
+        {% if section %}
+            {% if section.title %}
+            <meta property="og:title" content="{{ section.title }}"/>
+            {% endif %}
+            {% if section.description %}
+            <meta property="description" content="{{ section.description }}"/>
+            <meta property="og:description" content="{{ section.description }}"/>
+            {% endif %}
+        {% elif page %}
+            {% if page.title %}
+            <meta property="og:title" content="{{ page.title }}"/>
+            {% endif %}
+            {% if page.description %}
+            <meta property="description" content="{{ page.description }}"/>
+            <meta property="og:description" content="{{ page.description }}"/>
+            {% endif %}
+        {% endif %}
+    {% endblock metadata %}
+
     <script>
     (() => {
       const setDark = (dark) => {
