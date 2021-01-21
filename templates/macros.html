@@ -26,10 +26,10 @@
 {% endmacro %}
 
 
-{% macro post_header(page) %}
+{% macro post_header(page, class) %}
 <div>
     <time class="text-sm text-gray-500 dark:text-gray-600" datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format='%B %d, %Y') }}</time>
-    <h2 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-300"><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+    <h2 class="{{ class }} font-medium text-gray-900 dark:text-gray-300"><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
     {% if page.taxonomies.tags %}
     <div class="hidden md:block">
     {% for tag in page.taxonomies.tags %}
@@ -44,7 +44,7 @@
 {% macro list_pages(pages) %}
 <div class="space-y-4">
 {% for page in pages %}
-    {{ self::post_header(page=page) }}
+    {{ self::post_header(page=page, class="text-lg leading-6") }}
 {% endfor %}
 </div>
 {% endmacro %}

@@ -4,8 +4,6 @@ description = ""
 default_language = "en"
 
 compile_sass = false
-highlight_code = true
-highlight_theme = "one-dark"
 build_search_index = false
 generate_feed = true
 feed_filename = "rss.xml"
@@ -13,5 +11,9 @@ feed_filename = "rss.xml"
 taxonomies = [
   { name = "tags", paginate_by = 5, feed = true },
 ]
+
+[markdown]
+highlight_code = true
+highlight_theme = "one-dark"
 
 [extra]
