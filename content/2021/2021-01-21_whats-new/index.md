@@ -6,7 +6,6 @@ description = "A lot has been done, a lot more to do!"
 tags = ["announcement", "changelog", "improvements", "runner", "new-language", "documentation", "moderation"]
 +++
 
-# What has 2020 brought to us?
 
 Year 2020 and beginning of 2021 was a very busy period for Codewars maintainers. We worked hard on improving the platform, and on fixing existing bugs which were getting in a way of further improvements. We were looking for ways and ideas how to get closer to Codewars users. At the same time we managed to introduce a few new languages to train on, upgraded some language versions, and provided some means to support users and new-comers.
 
