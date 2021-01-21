@@ -6,12 +6,21 @@ description = "A lot has been done, a lot more to do!"
 tags = ["changelog", "improvements", "runner", "new-language", "documentation"]
 +++
 
+# What's new in 2020?
+
 Year 2020 and beginning of 2021 was a very busy period for Codewars maintainers. We worked hard on improving the platform, and on fixing existing bugs which were getting in a way of further improvements. At the same time we managed to introduce a few new languages to train on, upgraded some language versions, and provided some means to support users and new-comers.
+
+
+## New blog
+
+We migrated the Codewars blog to new platform, and plan to use it for announcements for the Codewars community. We will post here information and updates about new features, improvements, or we will call for your help when we need one. Blog posts will show up on the dashboard of the main site, what will hopefully help to bring the Codewars closer to its users.
 
 
 ## New Languages
 
 2020 brought a large set of new languages which users can train on, create new kata, and translate existing kata to! Most of them is still in beta stage, and contibutions in form of new kata or translations will be very helpful.
+
+Many thanks to all users who provided their support on setting up the code runner and created new content for introduced languages!
 
 ### Prolog
 
@@ -44,77 +53,21 @@ Refactoring was probably the biggest topic of all activities related to Codewars
 
 ## Documentation
 
-Addressing the needs of new users and questions of many experienced ones, new [documentation site](https://docs.codewars.com/) has been launched. 
+Addressing the needs of new users and questions of many experienced ones, new [documentation site](https://docs.codewars.com/) has been launched. Documentation is meant to be created by community, so everyone can write articles, review drafts, suggest improvements, or fix any issues using [codewars/docs](https://github.com/codewars/docs) GitHub repository. Documentation is still a work in progress, but when it gets into an acceptably good shape, it will replace the old Codewars wiki.
+
+More information on documentation will be provided in a dedicated announcement. Every contribution is welcome!
+
 
 ## Community Team
 
-Created the community team and added many features for them to moderate
+To take some maintenance burden off of administators' back, the [Codewars Community Moderation Team](https://docs.codewars.com/community/moderation/#members) has been formed, and provided with a variety of tools to manage content, handle problematic users, support users, and perform other moderation tasks. 
+
+More information on moderation team will be provided in a dedicated announcement.
 
 
-----
+## Incoming in 2021
 
-A big thanks to our community for continued support and participation. We have added more languages and updated language versions.
+In the upcoming time we plan to work on further improvements to the platform, extending tools available for moderators, and creating more articles for documentation. We will keep announcing incoming changes and ask for your help when we need one. We wold also like to give a big thanks to our community for continued support and participation.
 
-## Functional Languages for the Web
-
-Are you used to working within the JavaScript ecosystem or are you looking for a safer way to program? We have recently added some new statically typed functional languages that are worth taking a look at.
-
-### PureScript
-
-> A strongly-typed functional programming language that compiles to JavaScript
->
-> [_http://www.purescript.org/_](http://www.purescript.org/)
-
-- [Integers: Recreation One](https://www.codewars.com/kata/integers-recreation-one/purescript)
-- [Power of two](https://www.codewars.com/kata/power-of-two/purescript)
-- [Isomorphism](https://www.codewars.com/kata/isomorphism/purescript)
-
-### Elm
-
-> A delightful language for reliable web apps. _Generate JavaScript with great performance and no runtime exceptions._
-> 
-> [_https://elm-lang.org/_](https://elm-lang.org/)
-
-- [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code/elm)
-- [Duplicate Encoder](https://www.codewars.com/kata/duplicate-encoder/elm)
-- [Backspaces in string](https://www.codewars.com/kata/backspaces-in-string/elm)
-
-### Reason
-
-> Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
-> 
-> [_https://reasonml.github.io/_](https://reasonml.github.io/)
-
-- [Looking for a benefactor](https://www.codewars.com/kata/looking-for-a-benefactor/reason)
-- [Floating-point Approximation (II)](https://www.codewars.com/kata/floating-point-approximation-ii/reason)
-- [Sum by Factors](https://www.codewars.com/kata/sum-by-factors/reason)
-
-## Languages with Dependent Types
-
-We’re also very happy to introduce Idris and Agda! Special thanks to [gallais](https://github.com/gallais) and [ice1000](https://github.com/ice1000) for helping us add Agda.
-
-### Idris
-
-> A general purpose pure functional programming language with dependent types.
-> 
-> [_https://www.idris-lang.org/_](https://www.idris-lang.org/)
-
-### Agda
-
-> Agda is a dependently typed functional programming language.
-> 
-> [https://wiki.portal.chalmers.se/agda](https://wiki.portal.chalmers.se/agda/pmwiki.php)
-
-We’ll be honest. We don’t know these languages enough to write nice introductions, but some of our users are extremely excited to have theorem proving challenges on Codewars. If you’re interested to start learning, check out 8 kyu [“Theorem proving hello world: prove a+0=a and 0+a=a”](https://www.codewars.com/kata/5c879811bc562909bf65c8e6).
-
-The addition of these languages brings our count of supported languages to 41! Our library is steadily growing with kata built around the new languages and we would love to see more contributions from you! Check out some of the kata above.
-
-## New Language Versions
-
-- Dart 2.1
-- Java 11
-- Kotlin 1.3
-- Rust 1.33
-- TypeScript 3.3
 
 We hope you enjoy these updates! We are continually working to improve the platform, so thank **you** for your patience and continued use of Codewars.
