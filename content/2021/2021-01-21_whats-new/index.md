@@ -22,29 +22,6 @@ We migrated the Codewars blog to new platform, and plan to use it for announceme
 
 Many thanks to all users who provided their support on setting up the code runner and created new content for introduced languages!
 
-### Prolog
-
-Prolog is a logic programming language associated with artificial intelligence and computational linguistics. Currently, Codewars uses [SWI-Prolog](https://www.swi-prolog.org/features.html) implementation, and there's already quite a selection of [available kata](https://www.codewars.com/kata/search/prolog?q=&).
-
-### CFML
-
-[**ColdFusion Markup Language**](https://helpx.adobe.com/coldfusion/get-started.html) is a scripting language for web development that runs on the JVM, the .NET framework, and Google App Engine. Currently, Codewars uses [Lucee](https://docs.lucee.org/) as a CFML runtime.
-
-### COBOL
-
-
-### Lean
-
-### Haxe
-
-### CommonLisp
-
-### Perl
-
-### Raku
-
-### Pascal
-
 
 ## Refactoring and improvements
 
