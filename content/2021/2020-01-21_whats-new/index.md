@@ -15,7 +15,7 @@ Year 2020 and beginning of 2021 was a very busy period for Codewars maintainers.
 We migrated the Codewars blog to new platform, and plan to use it for announcements for the Codewars community. We will post here information and updates about new features, improvements, and we will call for your help when we need one. Blog posts will show up on the dashboard of the main site, what will hopefully help to bring the Codewars closer to its users.
 
 
-## New Languages
+## New languages
 
 2020 brought a large set of new languages which users can train on, create new kata, and translate existing kata to! Most of them is still in beta stage, and contibutions in form of new kata or translations will be very helpful. Many languages were also updated to new versions. Some of the added languages are Lean, COBOL, Perl, Pascal, but these are not the only ones! More details will be provided in a dedicated post.
 
@@ -34,7 +34,7 @@ Addressing the needs of new users and questions of many experienced ones, new [d
 More information on documentation will be provided in a dedicated announcement. Every contribution is welcome!
 
 
-## Community Team
+## Community moderation team
 
 To take some maintenance burden off of administators' back, the [Codewars Community Moderation Team](https://docs.codewars.com/community/moderation/#members) has been formed, and provided with a variety of tools to manage content, handle problematic users, support users, and perform other moderation tasks. 
 
@@ -43,7 +43,7 @@ More information on moderation team will be provided in a dedicated announcement
 
 ## Incoming in 2021
 
-In the upcoming time we plan to work on further improvements to the platform, extending tools available for moderators, and creating more articles for documentation. We want to bring Codewars and users closer together, so will keep announcing incoming changes and ask for your help when we need one. We wold also like to give a big thanks to our community for continued support and participation.
+In the upcoming time we plan to work on further improvements to the platform, extending tools available for moderators, and creating more articles for documentation. We want to bring Codewars and users closer together, so will keep announcing incoming changes and ask for your help when we need one. We would also like to give a big thanks to our community for continued support and participation.
 
 
 We hope you enjoy these updates! We are continually working to improve the platform, so thank **you** for your patience and continued use of Codewars.
