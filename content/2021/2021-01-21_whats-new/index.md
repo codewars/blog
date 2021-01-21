@@ -3,7 +3,7 @@ title = "What has 2020 brought to us?"
 description = "A lot has been done, a lot more to do!"
 
 [taxonomies]
-tags = ["changelog", "improvements", "runner", "new-language", "documentation"]
+tags = ["announcement", "changelog", "improvements", "runner", "new-language", "documentation", "moderation"]
 +++
 
 # What has 2020 brought to us?
