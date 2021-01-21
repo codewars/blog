@@ -1,5 +1,5 @@
 +++
-title = "What has 2020 brought to us?"
+title = "Updates from the past year"
 description = "A lot has been done, a lot more to do!"
 
 [taxonomies]
