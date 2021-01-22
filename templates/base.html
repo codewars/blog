@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
 
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="{{ get_url(path='/styles.css', cachebust=true) | safe }}" />
 
     {% if config.generate_feed %}
