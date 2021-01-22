@@ -1,10 +1,14 @@
 const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   purge: ["./templates/**/*.html", "./content/**/*.md"],
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         gray: colors.trueGray,
         brand: "#b1361e",

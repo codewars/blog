@@ -5,7 +5,7 @@
 
 {% block content %}
     {% block post %}
-        {{ macros::post_header(page=page, class="text-3xl leading-tight") }}
+        {{ macros::post_header(page=page, class="text-3xl leading-tight font-extrabold") }}
 
         <div class="prose dark:prose-light pt-8">
             {{ page.content | safe }}
