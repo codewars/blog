@@ -38,7 +38,7 @@ As mentioned above, we've been mostly focused on the technical issues for the pa
 
 The Codewars community needed moderation for a long time, but it was difficult because we only have one developer/admin. We wanted to delegate various tasks to a team of trusted users, but all the technical issues got in the way...
 
-We're excited to introduce [the community moderation team](https://docs.codewars.com/community/moderation/#members)! They have access to a variety of tools to manage content, handle problematic users, support users, and perform other moderation tasks. 
+We're excited to introduce [the community moderation team](https://docs.codewars.com/community/moderation/#moderators)! They have access to a variety of tools to manage content, handle problematic users, support users, and perform other moderation tasks. 
 
 More information on the moderation team will be provided in a dedicated announcement.
 
