@@ -7,7 +7,7 @@ tags = ["announcement", "changelog", "runner", "new-language", "documentation", 
 +++
 
 
-For the past few years, we had been focused on the internal changes to fix critical bugs and performance issues. We've been aware of the various problems of the platform including the community issues, but it was necessary for us to prioritize those major technical issues. We're happy to announce that Codewars is now in a much better shape! Thank you for your patience.
+For the past few years, we had been focused on internal changes that were required to fix critical bugs and performance issues. We've been aware of the various problems of the platform, including issues reported by the community, but it was necessary for us to prioritize technical debt issues first. We're happy to announce that Codewars is now in a much better shape! Thank you for your patience.
 
 We started to focus more on the community aspect since the summer of 2020 and have some exciting announcements to make.
 In this post, we'll highlight the updates from the past year and explain our plan for the early 2021.
@@ -31,12 +31,12 @@ Many thanks to all users who provided their support on setting up the code runne
 
 ## Refactoring and performance improvements
 
-As mentioned above, we've been mostly focused on the technical issues for the past few years. We're relieved that _most_ of the critical issues have been resolved and the performance have improved significantly. In short, it's now at least 10 times faster on average compared to 2018 with less servers and much more traffic. Thank you for your patience and support if you had experienced the worst days and stayed with us.
+As mentioned above, we've been mostly focused on technical debut issues for the past few years. We're relieved that _most_ of the critical issues have been resolved and the site's performance has improved significantly. In short, it's now at least 10 times faster on average compared to 2018 with less servers and much more traffic. Thank you for your patience and support if you had experienced the worst days and stayed with us.
 
 
 ## Community moderation team
 
-The Codewars community needed moderation for a long time, but it was difficult because we only have one developer/admin. We wanted to delegate various tasks to a team of trusted users, but all the technical issues got in the way...
+The Codewars community needed moderation for a long time, but it was difficult because we only have one developer/admin. We wanted to delegate various tasks to a team of trusted users, but all the technical debt issues got in the way...
 
 We're excited to introduce [the community moderation team](https://docs.codewars.com/community/moderation/#moderators)! They have access to a variety of tools to manage content, handle problematic users, support users, and perform other moderation tasks. 
 
