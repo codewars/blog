@@ -1,10 +1,10 @@
-+++
-title = "Codewars documentation"
-description = "Codewars now provides documentation to answer questions of new and experienced users. You can help filling it in!"
-
-[taxonomies]
-tags = ["announcement", "documentation"]
-+++
+---
+title: The Codewars Docs
+description: |
+  Codewars now provides documentation to answer questions of new and experienced users. You can help filling it in!
+taxonomies:
+  tags: ["announcement", "documentation"]
+---
 
 For a long time, Codewars platform suffered a problem of being undocumented, obscure, and often confusing, especially for new users. To mitigate this issue, Codewars introduced [documentation site](https://docs.codewars.com/) with documentation which can be created and maintained by community.
 
