@@ -1,12 +1,10 @@
-+++
-title = "The Codewars Team is Growing"
-description = """
-Two prominent community members, Matt Wampler-Doty (xcthulhu) and Phil DeJarnett (OverZealous) have joined the Codewars core team.
-"""
-
-[taxonomies]
-tags = []
-+++
+---
+description: |
+  Two prominent community members, Matt Wampler-Doty (xcthulhu) and Phil DeJarnett (OverZealous) have joined the Codewars core team.
+taxonomies:
+  tags: []
+title: The Codewars Team is Growing
+---
 
 We are proud to welcome two talented leaders from our community to the Codewars core team - Matt Wampler-Doty  aka [xcthulhu](http://codewars.com/users/xcthulhu) and Phil DeJarnett aka [OverZealous](http://codewars.com/users/OverZealous). 
 

@@ -1,10 +1,12 @@
-+++
-title = "New Language and Updated Beta Process"
-description = "Codewars now supports Solidity, Scala, Groovy, and Kotlin!"
-
-[taxonomies]
-tags = ["changelog", "runner", "new-language"]
-+++
+---
+description: Codewars now supports Solidity, Scala, Groovy, and Kotlin!
+taxonomies:
+  tags:
+  - changelog
+  - runner
+  - new-language
+title: New Language and Updated Beta Process
+---
 
 ## New Languages
 

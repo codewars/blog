@@ -1,12 +1,10 @@
-+++
-title = "Docker and Python 2.7 are now live!"
-description = """
-We have launched our new Docker system along with support for Python as our first expansion language.
-"""
-
-[taxonomies]
-tags = []
-+++
+---
+description: |
+  We have launched our new Docker system along with support for Python as our first expansion language.
+taxonomies:
+  tags: []
+title: Docker and Python 2.7 are now live!
+---
 
 Many of you may have noticed recently that in your account settings there was an option to opt-in to our new Docker-based system for evaluating code. We are happy to announce that the beta testing is done and we have fully rolled out our new Docker service!
 

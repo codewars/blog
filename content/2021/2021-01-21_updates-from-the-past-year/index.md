@@ -1,10 +1,15 @@
-+++
-title = "Updates from the past year"
-description = "A lot has been done, a lot more to do!"
-
-[taxonomies]
-tags = ["announcement", "changelog", "runner", "new-language", "documentation", "moderation"]
-+++
+---
+description: A lot has been done, a lot more to do!
+taxonomies:
+  tags:
+  - announcement
+  - changelog
+  - runner
+  - new-language
+  - documentation
+  - moderation
+title: Updates from the past year
+---
 
 
 For the past few years, we had been focused on internal changes that were required to fix critical bugs and performance issues. We've been aware of the various problems of the platform, including issues reported by the community, but it was necessary for us to prioritize technical debt issues first. We're happy to announce that Codewars is now in a much better shape! Thank you for your patience.

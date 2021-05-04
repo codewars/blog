@@ -1,10 +1,9 @@
-+++
-title = "Codewars Runner now open-source!"
-description = "Open sourcing Codewars Runner CLI that powers running kata on Codewars."
-
-[taxonomies]
-tags = []
-+++
+---
+description: Open sourcing Codewars Runner CLI that powers running kata on Codewars.
+taxonomies:
+  tags: []
+title: Codewars Runner now open-source!
+---
 
 ## Open-Sourced Codewars Runner CLI
 
