@@ -1,13 +1,11 @@
-+++
-title = "Earn the... Kata Contributor Ability"
-description = """
-We have added the ability to have kata contributors.
-Users who achieve an honor of 1500 or more will be allowed to make edits/improvemtns to other user's kata during the beta period.
-"""
-
-[taxonomies]
-tags = []
-+++
+---
+description: |
+  We have added the ability to have kata contributors.
+  Users who achieve an honor of 1500 or more will be allowed to make edits/improvemtns to other user's kata during the beta period.
+taxonomies:
+  tags: []
+title: Earn the... Kata Contributor Ability
+---
 
 We have added the ability to have kata contributors. Users who achieve an honor of 1500 or more will be allowed to contribute to other user's kata during the beta period. This allows kata to be improved even faster.
 

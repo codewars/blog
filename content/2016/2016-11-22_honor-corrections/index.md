@@ -1,9 +1,9 @@
-+++
-title = "Honor Corrections"
-
-[taxonomies]
-tags = ["note"]
-+++
+---
+taxonomies:
+  tags:
+  - note
+title: Honor Corrections
+---
 
 Just a quick note. Some of you might notice that your honor jumped up recently. This will be in large part due to the following corrected issue that was recently released.
 

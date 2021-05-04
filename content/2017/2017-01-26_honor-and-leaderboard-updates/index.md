@@ -1,10 +1,11 @@
-+++
-title = "Honor and Leaderboard Updates"
-description = "Announcing updates to the honor point system."
-
-[taxonomies]
-tags = ["changelog", "gamification"]
-+++
+---
+description: Announcing updates to the honor point system.
+taxonomies:
+  tags:
+  - changelog
+  - gamification
+title: Honor and Leaderboard Updates
+---
 
 Today we are announcing updates to the honor point system. The honor system will continue to work as you know it, but the points earned for certain activities have been changed to better reward code warriors who create and complete harder kata on the site. These updates are meant to encourage more code warriors to attempt harder kata, which will help kata get out of beta faster. As harder kata move out of beta faster, the more likely that kata authors (sensei) will focus on creating more challenging kata.
 

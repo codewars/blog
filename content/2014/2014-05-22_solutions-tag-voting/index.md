@@ -1,12 +1,10 @@
-+++
-title = "Solutions Tag Voting"
-description = """
-We just launched "tag voting" on kata solutions - now you can tag solutions for each kata as "best practices" or "clever".
-"""
-
-[taxonomies]
-tags = []
-+++
+---
+description: |
+  We just launched "tag voting" on kata solutions - now you can tag solutions for each kata as "best practices" or "clever".
+taxonomies:
+  tags: []
+title: Solutions Tag Voting
+---
 
 We just launched **tagged voting on kata solutions** - now you can mark your favorite solutions for each kata as "best practices" or "clever."
 

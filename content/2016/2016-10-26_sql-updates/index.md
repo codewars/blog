@@ -1,10 +1,14 @@
-+++
-title = "SQL Updates: It’s even easier now to create SQL kata"
-description = "Codewars has just released a new set of testing helpers to make writing and testing SQL kata even easier."
-
-[taxonomies]
-tags = ["changelog", "runner", "language-update", "authoring"]
-+++
+---
+description: Codewars has just released a new set of testing helpers to make writing
+  and testing SQL kata even easier.
+taxonomies:
+  tags:
+  - changelog
+  - runner
+  - language-update
+  - authoring
+title: 'SQL Updates: It’s even easier now to create SQL kata'
+---
 
 Codewars has just released a new set of testing helpers to make writing and testing SQL kata even easier. Before we get into how these helpers make it easy to author kata, lets check out some of the additional benefits they provide to those training on the kata.
 

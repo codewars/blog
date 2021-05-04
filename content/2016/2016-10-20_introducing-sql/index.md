@@ -1,10 +1,12 @@
-+++
-title = "Introducing SQL Support (Beta)"
-description = "Codewars now supports SQL!"
-
-[taxonomies]
-tags = ["changelog", "runner", "new-language"]
-+++
+---
+description: Codewars now supports SQL!
+taxonomies:
+  tags:
+  - changelog
+  - runner
+  - new-language
+title: Introducing SQL Support (Beta)
+---
 
 We are happy to announce that SQL is now a supported language on the [Codewars](https://www.codewars.com?utm_campaign=introducing_sql&utm_medium=blog) platform. We currently support two different SQL environments: SQLite3 and Postgres, with MariaDB support coming later.
 

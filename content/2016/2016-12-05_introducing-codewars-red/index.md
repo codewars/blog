@@ -1,10 +1,10 @@
-+++
-title = "Introducing Codewars Red"
-description = "Announcing premium subscription plan, Codewars Red!"
-
-[taxonomies]
-tags = ["product"]
-+++
+---
+description: Announcing premium subscription plan, Codewars Red!
+taxonomies:
+  tags:
+  - product
+title: Introducing Codewars Red
+---
 
 {{ figure(src="red-banner.png") }}
 

@@ -1,4 +1,4 @@
-+++
-transparent = true
-insert_anchor_links = "left"
-+++
+---
+insert_anchor_links: left
+transparent: true
+---

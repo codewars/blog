@@ -1,12 +1,10 @@
-+++
-title = "Kata are no longer fully locked once they have a large number of solutions."
-description = """
-We have updated how kata become locked once it has been completed 500+ times.
-"""
-
-[taxonomies]
-tags = []
-+++
+---
+description: |
+  We have updated how kata become locked once it has been completed 500+ times.
+taxonomies:
+  tags: []
+title: Kata are no longer fully locked once they have a large number of solutions.
+---
 
 Previously a kata would become locked once 500+ successful solutions had been submitted. This was done to try to minimize authors from making changes that would invalidate a large number of solutions on popular kata. 
 

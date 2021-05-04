@@ -1,13 +1,11 @@
-+++
-title = "Comment Tracking System"
-description = """
-The comments system now includes a tracking system to handle issues, questions, and suggestions.
-When commenting you have the option to tag the comment so it gets addressed.
-"""
-
-[taxonomies]
-tags = []
-+++
+---
+description: |
+  The comments system now includes a tracking system to handle issues, questions, and suggestions.
+  When commenting you have the option to tag the comment so it gets addressed.
+taxonomies:
+  tags: []
+title: Comment Tracking System
+---
 
 The comments system now includes a  tracking system to  handle issues, questions, and suggestions. When commenting you have the option to tag the comment so it gets addressed. 
 
