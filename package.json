@@ -10,16 +10,15 @@
   },
   "author": "",
   "dependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.2",
-    "@tailwindcss/typography": "^0.3.1",
-    "autoprefixer": "^9.8.6",
-    "cssnano": "^4.1.10",
-    "postcss": "^7.0.35",
-    "postcss-cli": "^7.1.2",
-    "postcss-nesting": "^7.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "^6.0.2",
+    "postcss-nested": "^5.0.5"
   }
 }
