@@ -1,10 +1,9 @@
-+++
-title = "Codewars moderation team"
-description = "Codewars staff reinforced by a team of community members!"
-
-[taxonomies]
-tags = ["announcement", "moderation", "community"]
-+++
+---
+title: Community Moderation Team
+description: "Codewars staff reinforced by a team of community members!"
+taxonomies:
+  tags: ["announcement", "moderation", "community"]
+---
 
 
 Until recently, Codewars maintainers and admins were overwhelmed by the number of tasks related not only to the maintenance of the platform, fixing bugs, and adding new features but also by issues related to Codewars content and users (poor **@Kazk** \*hug\*). Sometimes it was just too much for them.
